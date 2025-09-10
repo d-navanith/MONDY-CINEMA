@@ -1,7 +1,6 @@
-# MONDY-CINEMA
-Mondy Cinema is a database-driven web app built with HTML, CSS, JavaScript, PHP &amp; MySQL. Users can browse movies, register/login, and book tickets, while admins manage movies &amp; bookings via a secure dashboard. Responsive design ensures a seamless and user-friendly cinema booking experience.
-# Demo Video
-https://youtu.be/AJgwwlxJbuw?si=zJQNuzfqMvkQTSTO
+# Mondy Cinema - Movie Booking System
+
+A modern, responsive cinema booking system built with PHP, MySQL, HTML, CSS, and JavaScript.
 
 ## Features
 
@@ -33,9 +32,10 @@ https://youtu.be/AJgwwlxJbuw?si=zJQNuzfqMvkQTSTO
 
 1. **Database Setup**
    ```sql
-   database/schema.sql
+   -- Import the database schema
    mysql -u root -p < database/schema.sql
    ```
+
 2. **Configuration**
    - Update database credentials in `config/database.php`
    - Ensure PHP and MySQL are running
@@ -49,7 +49,7 @@ https://youtu.be/AJgwwlxJbuw?si=zJQNuzfqMvkQTSTO
 
 4. **Admin Access**
    - Default admin login: admin@mondycinema.lk
-   - Default password: password
+   - Default password: password (change immediately)
 
 ## Directory Structure
 
