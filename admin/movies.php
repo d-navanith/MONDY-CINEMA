@@ -2,13 +2,11 @@
 session_start();
 include '../config/database.php';
 
-// Check if user is admin
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'admin') {
     header('Location: ../login.php');
     exit();
 }
 
-// Handle movie operations
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if (isset($_POST['action'])) {
         switch ($_POST['action']) {
@@ -125,7 +123,6 @@ $movies = $stmt->fetchAll();
         </main>
     </div>
 
-    <!-- Movie Modal -->
     <div id="movie-modal" class="modal">
         <div class="modal-content">
             <div class="modal-header">
