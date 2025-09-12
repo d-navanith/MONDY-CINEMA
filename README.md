@@ -2,6 +2,9 @@
 
 A modern, responsive cinema booking system built with PHP, MySQL, HTML, CSS, and JavaScript.
 
+## Demo Video
+https://youtu.be/AJgwwlxJbuw?si=hc9fvujLm_2JFRML 
+
 ## Features
 
 ### Frontend Features
